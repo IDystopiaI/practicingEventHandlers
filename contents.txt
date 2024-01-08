@@ -1,0 +1,5 @@
+1. Website
+    - Basic example using selectors to modify the DOM with selectors
+
+2. Variables
+    - printing strings, template literals, typeof keyword
