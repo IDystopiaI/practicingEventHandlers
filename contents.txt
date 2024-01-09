@@ -3,3 +3,7 @@
 
 2. Variables
     - printing strings, template literals, typeof keyword
+
+3. Arithmetic
+    - math
+    - off topic dive into structedClone
