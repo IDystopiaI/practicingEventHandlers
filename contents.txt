@@ -7,3 +7,11 @@
 3. Arithmetic
     - math
     - off topic dive into structedClone
+
+4. Accept User Input
+    1. through an alert containing an input field
+    2. collecting from a field after the user clicks a button
+
+5. Type Conversion
+    - Changing the datatype of one value to another
+        - strings, numbers, booleans
