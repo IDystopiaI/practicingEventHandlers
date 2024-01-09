@@ -15,3 +15,7 @@
 5. Type Conversion
     - Changing the datatype of one value to another
         - strings, numbers, booleans
+
+6. Constants
+    - ties back into structuredClone; an object is mutable
+    - creates immutable variables
