@@ -19,3 +19,6 @@
 6. Constants
     - ties back into structuredClone; an object is mutable
     - creates immutable variables
+
+7. Counter Program
+    - a program that responds to incrementing/decrementing/resting a counter in response to what a user clicks on
