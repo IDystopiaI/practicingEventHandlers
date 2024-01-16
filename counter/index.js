@@ -25,3 +25,4 @@ resetBtn.onclick = function () {
     count = 0;
     countLabel.innerText = count;
 }
+

@@ -22,3 +22,116 @@
 
 7. Counter Program
     - a program that responds to incrementing/decrementing/resting a counter in response to what a user clicks on
+
+8. Math
+    - Math is an object in JavaScript
+    - Many static methods live inside this object such as Math.floor()
+
+9. Random
+    - Working with Random in JavaScript
+
+10. If Statements
+    - Conditionals, some ternary
+
+11. Checked Property
+    - Determines the checked state of an HTML checkbox or radio button element
+    - The .checked property is sued for both radio and checkboxes
+
+12. Ternary operator
+    - Alternative way of writing if statements
+    - an example can be found in conditionals
+
+13. Switches
+    - very similar to if else statements, does not short-circuit (unlike other languages)
+    - best to add break after each clause to prevent fallthrough
+
+14. String methods
+    - methods to manipulate and work with text
+    - remember that strings are immutable in JS
+
+15. String slicing
+    - part of String methods
+
+16. Method chaining
+    - calling several methods one after another in one continuous line of code
+    - not sure if "first class citizen" applies here or if that's more specific to functions
+
+17. Logical operators
+    - && || !
+
+18. Strict equality
+    - together with Logical operators
+    - small bit of bitwise ~~
+
+19. While loops
+    - while loop = repeat some code while some condition is true
+
+20. For loops
+    - very short for loops lesson
+
+21. Number guessing game
+    - guessing is an attempt
+    - guessing2 is an event driven revision
+    - guessing3 makes use of prompts to pause a while loop
+
+22. Functions
+    - a section of reusable code.
+    - Declare code once, use it wherever you want.
+    - call the function to execute the code.
+
+23. Variable scope
+    - where a variable can be access from local/global
+
+24. Temperature conversion program
+    - Temperature conversion program making use of html, css and js
+
+25. Arrays
+26. Spread operator
+27. Rest parameters
+28. Dice Roller program
+29. Random password generator
+30. Callbacks
+31. forEach()
+32. map()
+33. filter()
+34. reduce()
+35. Function expressions
+36. Arrow functions
+37. JavaScript Object
+38. What is THIS
+39. Constructors
+40. Classes
+41. STATIC keyword
+42. Inheritance
+43. SUPER keyword
+44. Getters & Setters
+45. Destructuring
+46. Nested objects
+47. Arrays of objects
+48. Sorting
+49. Shuffle an array
+50. Dates
+51. Closures
+52. setTimeout()
+53. Digital Clock program
+54. Stopwatch program
+55. ES6 Modules
+56. Asynchronous code
+57. Error handling
+58. Calculator program
+59. What is the DOM?
+60. Element selectors
+61. DOM navigation
+62. Add & change HTML
+63. Mouse events
+64. Key events
+65. Hide/show HTML
+66. NodeLists
+67. classList
+68. Rock Paper Scissors
+69. Image Slider
+70. Callback Hell?
+71. Promises
+72. Async/Await
+73. JSON files
+74. Fetch data from an API

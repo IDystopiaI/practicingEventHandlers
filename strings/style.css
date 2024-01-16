@@ -1,0 +1,9 @@
+body {
+    background-color: #666;
+    font: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#testing-insert::before {
+    content: "\00BB";
+}

@@ -1,0 +1,20 @@
+// Fall through can be achieved a few ways.
+// If there is code in the previous case, add a comment with the text falls through just before the next case
+
+// console.log("Hello")
+// /* falls through */
+// case:...
+
+// if the previous case only has a condition and no code, and is intended to fall through,
+// you can stack it directly above the next case without a falls through comment.
+
+// case 6:
+// case 7:
+
+// place the falls through comment above the case you intend to fall through to
+/*
+// You can tell JSHint that you don't use break intentionally by
+// adding a comment falls through on a line just before
+// the next `case`. single line comments work too.
+*/
+/* falls through */

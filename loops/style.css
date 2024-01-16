@@ -1,0 +1,15 @@
+body {
+    background-color: #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ccc;
+}
+
+.container {
+    background-color: #333;
+    width: 600px;
+    height: 500px;
+    border-radius: 10%;
+    padding: 3em;
+    text-align: center;
+    margin: 0 auto;
+}

@@ -1,1 +1,5 @@
 *\.docx
+package*\.json
+*.tmp
+\.eslintrc\.js
+node_modules/
