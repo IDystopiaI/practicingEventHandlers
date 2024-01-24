@@ -6,7 +6,7 @@
 
 3. Arithmetic
     - math
-    - off topic dive into structedClone
+    - off topic dive into structuredClone
 
 4. Accept User Input
     1. through an alert containing an input field
@@ -86,29 +86,89 @@
     - Temperature conversion program making use of html, css and js
 
 25. Arrays
+    - some array methods
+
 26. Spread operator
+    - ... to unpack iterables
+
 27. Rest parameters
+    - ...arg to pack objects into an array
+
 28. Dice Roller program
+    - making an html dice roller app
+
 29. Random password generator
+    - create a character set and generate a password of n-length from the allowed characters
+
 30. Callbacks
+    - A function that is passed as an argument to another function
+    - Used to handle asynchronous operations
+
 31. forEach()
+    - a method for iterables, takes a callback function and executes it an all instances of the iterable
+    - non-mutating and returns undefined; reassignment will change the values of an iterable
+
+* JavaScript/functions/iterableFuncs for filter, map and reduce
 32. map()
+    - similar to forEach, returns a new array
+
 33. filter()
+    - if callback returns true, element is appended to an array
+
 34. reduce()
+    - continues to invoke callback function until no elements remain in array
+
 35. Function expressions
+    - let hello = function(){} anonymous
+
 36. Arrow functions
+    - () => {} function expression with less syntax
+
 37. JavaScript Object
+    - Objects, key: value, methods
+
 38. What is THIS
+    - reference to an instance of a class
+
 39. Constructors
+    - used to instantiate an object
+
 40. Classes
+    - a template for an object
+
 41. STATIC keyword
+    - A class owned property or method
+
 42. Inheritance
+    - OOP, a child inherits from a parent
+
 43. SUPER keyword
+    - access a parent constructor
+    - access a parent method
+
 44. Getters & Setters
+    - access modifiers
+    - validate input data
+
 45. Destructuring
+    - extracting values from arrays and objects
+    - [] to destructure arrays
+    - {} to destructure objects
+
 46. Nested objects
+    - An object within another object
+    - allows you to represent more complex data structures
+    - Child Object is enclosed by a parent object
+    Person{Address{}, ContactInfo{}}
+    ShoppingCart{Keyboard{}, Mouse{}, Monitor{}}
+
 47. Arrays of objects
+    - performing various actions on an array such as reduce
+
 48. Sorting
+    - method to sort array elements in lexicographical order
+    - (alphabet + numbers + symbols)
+
 49. Shuffle an array
 50. Dates
 51. Closures
