@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-image: url(../Assets/clock/Waves\ Centered\ 1080\ 40000.png);
+    /* center image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* property to create a static background image
+    if the page had any scrolling */
+    background-attachment: fixed;
+
+}
+
+#clock-container {
+    display: flex;
+    /* center elements horizontally */
+    justify-content: center;
+    /* vertically align items */
+    align-items: center;
+    height: 100vh;
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    /* add a blur behind the clock */
+    backdrop-filter: blur(15px);
+    width: 100%;
+    background-color: hsla(0, 0%, 100%, 0.1);
+}
