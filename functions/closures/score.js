@@ -1,22 +1,36 @@
 // closure practice
 
-let score = 0;
+function createGame(){
 
-function increaseScore(points) {
-    score += points;
-    console.log(`+${points}pts`);
+    let score = 0;
+
+    function increaseScore(points) {
+        score += points;
+        console.log(`+${points}pts`);
+    }
+
+    function decreaseScore(points) {
+        score -= points;
+        console.log(`-${points}pts`);
+    }
+
+    function getScore() {
+        return score;
+    }
+
+    // return an object reference to these methods
+    return {increaseScore, decreaseScore, getScore}
 }
 
-function decreaseScore(points) {
-    score -= points;
-    console.log(`-${points}`);
-}
+// create a 'createGame' object
+let game = createGame();
 
-function getScore() {
-    return score;
-}
+game.increaseScore(3);
+game.increaseScore(5);
+game.decreaseScore(2);
 
-increaseScore(5);
-increaseScore(6);
-decreaseScore(3);
-console.log(`The final score is ${getScore()}pts`);
+// score is private and cannot be modified without a setter, this score is unrelated to the score within createGame object
+game.score = 1000;
+console.log(game);
+
+console.log(`The final score is ${game.getScore()}pts`); // 6
