@@ -1,0 +1,28 @@
+#myButton {
+  font-size: 4rem;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+#myH1 {
+    font-size: 5rem;
+}
+
+/* class to be applied through JS */
+.enabled {
+  background-color: hsl(199, 80%, 50%);
+  color: white;
+}
+
+.disabled {
+  background-color: hsl(0, 0%, 60%);
+  color: hsl(0, 0%, 80%);
+}
+
+/* dynamically add and remove this class with JS*/
+.hover {
+  box-shadow: 0 0 10px hsl(0, 0%, 0%, 0.2);
+  font-weight: bold;
+}

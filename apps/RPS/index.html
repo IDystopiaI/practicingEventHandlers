@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Rock - Paper - Scissors</h1>
+    <!-- on click call playGame func and pass string as arg -->
+    <div class="choices">
+        <button id="rock" onclick="playGame('rock')">👊</button>
+        <button id="paper" onclick="playGame('paper')">✋</button>
+        <button id="scissors" onclick="playGame('scissors')">✌️</button>
+    </div>
+
+    <div id="playerDisplay">Player: </div>
+    <div id="computerDisplay">Computer: </div>
+    <!-- placeholder -->
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay">
+        <p class="score">Player Score:
+            <span id="playerScoreDisplay">0</span>
+        </p>
+        <p class="score">
+            Computer Score:
+            <span id="computerScoreDisplay">0</span>
+        </p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

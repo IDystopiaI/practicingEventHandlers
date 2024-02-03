@@ -170,28 +170,121 @@
     - (alphabet + numbers + symbols)
 
 49. Shuffle an array
+    - using fisher yates to shuffle an array in place
+    - can also shuffle into a new array, which might
+    be easier to understand (remove selected element, update
+    upperBound for selecting next element)
+
 50. Dates
+    - some info on date times
+
 51. Closures
+    - useful for limiting the scope of variables
+    - return an instance of a loop
+
 52. setTimeout()
+    - explanation on setTimeout, clearTimeout, setInterval
+    - and incorporating callback functions
+
 53. Digital Clock program
+    - a clock displaying the current time HH:MM:SS
+
 54. Stopwatch program
+    - browser based Stopwatch, uses js to update display
+
 55. ES6 Modules
+    - reusable code that is stored in an external file
+    - can contain variables, classes, functions, etc.
+
 56. Asynchronous code
+    - some code will run before previous code has finished executing
+      this is asynchronous
+
 57. Error handling
+    - try, catch, finally
+    - throw new Error("This is an error message")
+
 58. Calculator program
+    - a Calculator written in JavaScript
+    - some regex thrown in for practice
+
 59. What is the DOM?
+    - Document Object Model
+    - tree structure, use dot notation to navigate
+    - console.dir(Document) to view contents and properties
+
 60. Element selectors
+    - element and query selectors
+
 61. DOM navigation
+    - .firstElementChild
+    - .lastElementChild
+    - .nextElementSibling
+    - .preventElementSibling
+    - .parentElement
+    - .children
+
 62. Add & change HTML
+    - target.append(newElement)/target.prepend(newElement) nest within target element at end or beginning
+    - document.body.insertBefore(newElement, existingElement); insert at same level as target element
+
 63. Mouse events
+    - .addEventListener("click", _event)
+    - click, mouseover, mouseout
+
 64. Key events
+    - .addEventListener("keydown", _event)
+    - console.log("event.key")
+    - event.preventDefault()
+    - keydown, keyup
+    - event.key/event.code
+
 65. Hide/show HTML
+    - use visibility: hidden/visible to toggle elements
+    without displacing other elements
+
 66. NodeLists
+    - static collection of elements
+
 67. classList
+    - interacting with an element's list of CSS classes
+    - methods: add(), remove(), toggle(remove, add), replace(old, new), contains()
+    - more NodeList practice
+
 68. Rock Paper Scissors
+    - rock paper scissors, reacts to element being clicked
+
 69. Image Slider
+    - changing between a set of images
+    - pagination
+
 70. Callback Hell?
+    - Situation where callbacks are nested within other callbacks
+      leading to code being hard to read
+
+    - Make use of Promises + async/await to avoid
+      callback hell
+
 71. Promises
+    - turn asynchronous into synchronous
+    - returns resolved or reject
+
 72. Async/Await
+    - async returns Promises
+    - await waits for previous function to finish
+
 73. JSON files
+    - file structure and loading a file in js using fetch('../path/to/file.json')
+    - JSON.stringify(JSONObject) -> string representation
+    - JSON.parse("{"name":"Spongebob"}) -> JSON object
+
+    - * need to fix parsing of files/json/person.json, doesn't seem to be parsing correctly
+
 74. Fetch data from an API
+    - Using https://pokeapi.co/ to retrieve a pokemon's sprite
+    - more work with JSON, fetch, async/await
+
+75. Weather App project
+    - create a weather app
+    - more API practice
+    - Async/Await
