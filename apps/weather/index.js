@@ -48,7 +48,7 @@ async function getWeatherData(city) {
   console.log(response);
 
   // handle bad fetch request
-  // !response.ok not propagating? **********************************
+
   if (!response.ok) {
     throw new Error("Could not fetch weather data");
   }
@@ -56,7 +56,7 @@ async function getWeatherData(city) {
   return await response.json();
 }
 
-//
+
 function displayWeatherInfo(data) {
   // debug see if data was retrieved correctly
   // console.log(data);
