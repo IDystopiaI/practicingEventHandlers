@@ -65,20 +65,28 @@ console.log("People:", stringPeopleToJson);
 // fetch a file/url, returns a promise
 fetch("./names.json")
   .then((response) => response.json())
-  .then((value) => console.log(value));
+  .then((value) => console.log(value))
+  .catch((error) => {
+    console.error(error)
+  });
 
 fetch("./person.json")
   .then((response) => response.json())
-  .then((value) => console.log(value));
+  .then((value) => console.log(value))
+  .catch((error) => {
+    console.error(error);
+  });
 
-  // there is an implicit try catch block
-  // try is done in the background, but you need to method
-  // chain a catch statement to handle errors which may occur
+// there is an implicit try catch block
+// try is done in the background, but you need to method
+// chain a catch statement to handle errors which may occur
+
 fetch("./people.json")
   .then((response) => response.json())
   .then((values) =>
     values.forEach((value) => {
-      console.log(value.isEmployed)
-      .catch((error) => console.error(error));
+      console.log(`Name: ${value.name}, Employed: ${value.isEmployed}`);
     })
-  );
+  )
+  .catch((error) => console.error(error));
+// .catch was in incorrect scope
