@@ -279,6 +279,7 @@
     - JSON.parse("{"name":"Spongebob"}) -> JSON object
 
     - * need to fix parsing of files/json/person.json, doesn't seem to be parsing correctly
+    * .catch was inside a function instead of method chained onto the end of a call
 
 74. Fetch data from an API
     - Using https://pokeapi.co/ to retrieve a pokemon's sprite
