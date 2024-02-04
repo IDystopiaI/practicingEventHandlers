@@ -1,29 +1,31 @@
-/* it seems require() part of Node, and not part of ES6 so it
+/* Rough version of filehandle.js
+  - contains sample code using .then() and async/await
+
+  it seems require() part of Node, and not part of ES6 so it
   can't be used to load information and store it in a file handle
   */
 
-// let fh = require ("../Assets/APIs/OpenWeather.json");
+// let fh = require ("./apiKey.json");
 // console.log(fh);
-
-// trying to make file handle
-let fh;
-
 
 // main function using .then()
 /*
 function main() {
   fetch("../Assets/APIs/OpenWeather.json")
-    .then((response) => response.json())
-    .then((values) => {
-      // console.log(values.key);
-      fh = values.key;
-      console.log("Inner fh: " + fh);
+  .then((response) => response.json())
+  .then((values) => {
+    // console.log(values.key);
+    fh = values.key;
+    console.log("Inner fh: " + fh);
     //   return fh;
-    })
-    .catch((error) => console.error(error));
+  })
+  .catch((error) => console.error(error));
 }
 
 */
+
+// initializing file handle variable
+let fh;
 
 /* Async/Await */
 async function main() {
@@ -54,5 +56,5 @@ const myH1 = document.getElementById("display");
 // key is present when used as an eventListener
 /* eslint-disable-next-line */
 function printKey() {
-  myH1.append(fh);
+  myH1.textContent = `Key: ${fh}`;
 }
