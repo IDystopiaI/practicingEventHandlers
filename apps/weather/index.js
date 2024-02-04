@@ -35,6 +35,7 @@ async function getWeatherData(city) {
   let filehandle = await fetch("../Assets/APIs/OpenWeather.json");
   const fileData = await filehandle.json();
   const apiKey = fileData.key;
+  // console.log(apiKey);
 
   // debug, is key loaded or undefined
   // console.log(apiKey);
@@ -48,7 +49,8 @@ async function getWeatherData(city) {
   console.log(response);
 
   // handle bad fetch request
-
+  //"Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."
+  // API key may take a few hours for a key to become valid, this also applies reactivated keys
   if (!response.ok) {
     throw new Error("Could not fetch weather data");
   }
