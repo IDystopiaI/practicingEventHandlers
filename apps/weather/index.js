@@ -33,7 +33,10 @@ weatherForm.addEventListener("submit", async (event) => {
 async function getWeatherData(city) {
   // load API key from file
   let filehandle = await fetch("../Assets/APIs/OpenWeather.json");
-  const fileData = await filehandle.json();
+  const fileData = await filehandle.json()
+  .catch(error => {
+    console.error(error)
+  })
   const apiKey = fileData.key;
   // console.log(apiKey);
 
