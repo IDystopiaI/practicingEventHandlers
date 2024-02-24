@@ -1,6 +1,9 @@
 // Syntax for jQuery
 // $(selector).action()
 
+// $(document).ready() is deprecated
+// use $(function(){...}); instead
+
 // use a document.ready event to wrap your code
 // this prevents js from executing before the DOM has finished loading
 // on button click hide all p elements
