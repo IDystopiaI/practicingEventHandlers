@@ -4,3 +4,4 @@ package*\.json
 \.eslintrc\.js
 node_modules/
 assets/
+APIs/
