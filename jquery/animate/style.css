@@ -1,0 +1,14 @@
+#block {
+  background-color: #bca;
+  width: 100px;
+  border: 1px solid green;
+}
+
+body {
+  font-size: 2em;
+  background: beige;
+}
+
+button {
+  font-size: .7em;
+}
