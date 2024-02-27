@@ -1,0 +1,18 @@
+body {
+  box-sizing: border-box;
+  padding: 5px 5px 0 5px;
+  font-size: 1.25rem;
+}
+img {
+  background-color: darkgreen;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.blue {
+  background-color: blue;
+}
+.cyan {
+  background-color: cyan;
+}
