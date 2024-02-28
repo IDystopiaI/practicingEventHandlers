@@ -1,0 +1,30 @@
+body {
+  padding: 5px;
+  background: #F3F6FA;
+  font-size: 1.2em;
+}
+
+.target {
+  border: 2px solid #bbb;
+  background-color: LightSkyBlue;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.child {
+  display: block;
+  width: 90px;
+  color: white;
+  font: bold 12px;
+  padding: 5px 10px;
+  background-color: orange;
+}
+
+ .sibling {
+  display: block;
+  width: 90px;
+  font: bold 12px;
+  color: white;
+  padding: 5px 10px;
+  background-color: SlateGray;
+}
