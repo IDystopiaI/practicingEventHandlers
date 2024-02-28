@@ -1,4 +1,3 @@
-*\.docx
 package*\.json
 *.tmp
 node_modules/
