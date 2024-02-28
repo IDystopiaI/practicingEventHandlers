@@ -1,0 +1,6 @@
+/* fadeIn for vanilla js */
+.thingy {
+  display: none;
+  opacity: 0;
+  transition: 0.8s;
+}
