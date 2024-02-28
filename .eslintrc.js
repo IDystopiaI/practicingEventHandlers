@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
-    // removes warning for '$' undefiend when working with jQuery
+    // removes warning for '$' undefined when working with jQuery
     // https://stackoverflow.com/a/39511584
     jquery: true,
   },
